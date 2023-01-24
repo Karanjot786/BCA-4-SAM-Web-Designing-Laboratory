@@ -1,4 +1,4 @@
-# BCA-4-SAM-Web-Designing-Laboratory
+# BCA 4 SAM Web Designing Laboratory
 1. Create a simple HTML page to demonstrate the use of different tags.
 2. Design index page of a book on web designing.
 3. Display Letter Head of your college on a web page.
