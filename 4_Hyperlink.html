@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Hyperlinks</title>
+  
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+          
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+          
+        .section {
+            width: 100vw;
+            height: 40vh;
+            background-color: #EF5354;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            margin: 10px 5px;
+            padding-top: 400px;
+        }
+          
+        .one,
+        .three {
+            background-color: #E03B8B;
+        }
+          
+        .nav {
+            width: 100vw;
+            height: 40vh;
+            background-color: #c6c7d4;
+            font-size: x-large;
+            color: white;
+            text-align: center;
+            margin: 10px 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            place-items: center;
+        }
+          
+        .pro {
+            color: white;
+            background-color: #38CC77;
+            height: 40px;
+            width: 120px;
+            padding: 2px;
+            border: 2px solid black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+  
+<body>
+    <div class="nav">
+        <a href="#JAVA" class="pro">JAVA</a>
+        <a href="#PYTHON" class="pro">PYTHON</a>
+        <a href="#CSS" class="pro">CSS</a>
+        <a href="#HTML" class="pro">HTML</a>
+    </div>
+    <div class="section one" id="JAVA">
+        JAVA
+    </div>
+    <div class="section two" id="PYTHON">
+        PYTHON
+    </div>
+    <div class="section three" id="CSS">
+        CSS
+    </div>
+    <div class="section four" id="HTML">
+        HTML
+    </div>
+</body>
+  
+</html>
