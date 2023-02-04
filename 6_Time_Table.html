@@ -1,133 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Time Table of your department and highlights of most important periods.</title>
     <style>
-        .table{
+        .title {
             text-align: center;
+        }
+        .title1{
+            text-align: center;
+            border: 1px solid #dddddd;
+            padding: 8px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
         }
     </style>
 </head>
+
 <body>
-    <h1 class="table">TIME TABLE</h1>
+    <h1 class="title">TIME TABLE</h1>
+    <h2  class="title1">BCA 4th Semester G-15</h2>
     <table>
-<tr>
-    <th>TIME/DAYS</th>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-</tr>
-<tr>
-    <td>8:30</td>
-    <td >-x-</td>
-    <td >WD lab (A2)
-        CC-II
-        HDK
-        SE lab (A1)
-        CC-III
-        KPK</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
-<tr>
-    <td>9:30</td>
-    <td >SE
-        L
-        KPK</td>
-    <td >WD lab (A2) CC-II HDK SE lab (A1) CC-III KPK</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
-<tr>
-    <td>10:30</td>
-    <td >OS
-        L
-        APK</td>
-    <td >OS
-        L
-        APK</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
-<tr>
-    <td>11:30</td>
-    <td >-x-</td>
-    <td >-x-</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
-<tr>
-    <td>12:30</td>
-    <td >WD lab
-        (A1)
-        CC-II
-        HDK
-        SE lab (A2)
-        CC-III
-        GS</td>
-    <td >-x-</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
-<tr>
-    <td>1:30</td>
-    <td >WD lab
-        (A1)
-        CC-II
-        HDK
-        SE lab (A2)
-        CC-III
-        GS</td>
-    <td >DBMS T (A2)
-        BPK (G-15)
-        OS T (A1)
-        APK (S-219)</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
-<tr>
-    <td>2:30</td>
-    <td >DBMS A1
-        (T)
-        BPK (G-15)
-        OS A2 (T)
-        APK (G-14)</td>
-    <td >OS lab (A2)
-        APK
-        CC-III
-        DBMS lab
-        (A1)
-        HDK
-        CC-II</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
-<tr>
-    <td>3:30</td>
-    <td >-x- </td>
-    <td >OS lab (A2)
-        APK
-        CC-III
-        DBMS lab
-        (A1)
-        HDK
-        CC-II</td>
-    <td>Mat</td>
-    <td>SEMINAR</td>
-    <td >SPORTS</td>
-</tr>
+        <tr>
+            <th>TIME/DAYS</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>8:30</td>
+            <td>-x-</td>
+            <td>WD lab (A2)
+                CC-II
+                HDK
+                SE lab (A1)
+                CC-III
+                KPK</td>
+            <td>DBMS
+                L
+                BPK</td>
+            <td>OS
+                L
+                APK</td>
+            <td>DBMS lab
+                (A2)
+                BPK
+                CC-II
+                OS lab (A1)
+                APK
+                CC-III</td>
+        </tr>
+        <tr>
+            <td>9:30</td>
+            <td>SE
+                L
+                KPK</td>
+            <td>WD lab (A2) CC-II HDK SE lab (A1) CC-III KPK</td>
+            <td>SE
+                L
+                KPK(G-16)</td>
+            <td>SE
+                L
+                KPK</td>
+            <td>DBMS lab
+                (A2)
+                BPK
+                CC-II
+                OS lab (A1)
+                APK
+                CC-III</td>
+        </tr>
+        <tr>
+            <td>10:30</td>
+            <td>OS
+                L
+                APK</td>
+            <td>OS
+                L
+                APK</td>
+            <td>OS lab (A1)
+                APK
+                CC-III
+                DBMS lab (A2)
+                BPK
+                CC-II</td>
+            <td>DBMS
+                L
+                BPK(G-16)</td>
+            <td>WD
+                L
+                HDK</td>
+        </tr>
+        <tr>
+            <td>11:30</td>
+            <td>-x-</td>
+            <td>-x-</td>
+            <td>OS lab (A1)
+                APK
+                CC-III
+                DBMS lab (A2)
+                BPK
+                CC-II</td>
+            <td>WD
+                L
+                HDK</td>
+            <td>SE T (A2)
+                KPK(G-15)</td>
+        </tr>
+        <tr>
+            <td>12:30</td>
+            <td>WD lab
+                (A1)
+                CC-II
+                HDK
+                SE lab (A2)
+                CC-III
+                GS</td>
+            <td>-x-</td>
+            <td>-x-</td>
+            <td>-x-</td>
+            <td>DBMS
+                L
+                BPK</td>
+        </tr>
+        <tr>
+            <td>1:30</td>
+            <td>WD lab
+                (A1)
+                CC-II
+                HDK
+                SE lab (A2)
+                CC-III
+                GS</td>
+            <td>DBMS T (A2)
+                BPK (G-15)
+                OS T (A1)
+                APK (S-219)</td>
+            <td>WD
+                L
+                HDK</td>
+            <td>SE lab (A1)
+                KPK
+                CC-III
+                OS lab (A2)
+                APK
+                CC-II</td>
+            <td>SE T (A1)
+                KPK (S-
+                219)</td>
+        </tr>
+        <tr>
+            <td>2:30</td>
+            <td>DBMS A1
+                (T)
+                BPK (G-15)
+                OS A2 (T)
+                APK (G-14)</td>
+            <td>OS lab (A2)
+                APK
+                CC-III
+                DBMS lab
+                (A1)
+                HDK
+                CC-II</td>
+            <td>DBMS lab (A1)
+                HDK
+                CC-II
+                SE lab (A2)
+                KPK/JSS
+                CC-III</td>
+            <td>SE lab (A1)
+                KPK
+                CC-III
+                OS lab (A2)
+                APK
+                CC-II</td>
+            <td>MC
+                A1 KPK
+                (G-15)
+                A2 BPK
+                (G-16)</td>
+        </tr>
+        <tr>
+            <td>3:30</td>
+            <td>-x- </td>
+            <td>OS lab (A2)
+                APK
+                CC-III
+                DBMS lab
+                (A1)
+                HDK
+                CC-II</td>
+            <td>DBMS lab (A1)
+                HDK
+                CC-II
+                SE lab (A2)
+                KPK/JSS
+                CC-III</td>
+            <td>-x-</td>
+            <td>-x-</td>
+        </tr>
     </table>
 </body>
+
 </html>
